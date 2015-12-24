@@ -1,0 +1,62 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: 'Varela', sans-serif;
+	background-image: url("pattern.svg");
+	color: white;
+	font-size: 1.3em;
+	overflow: hidden;
+	-webkit-transition: background-color 0.2s ease-out;
+-moz-transition: background-color 0.1s ease-out;
+-o-transition: background-color 0.1s ease-out;
+transition: background-color 0.1s ease-out;
+
+}
+
+body:hover {
+	background-color: green;
+  cursor: pointer;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+#quoteDiv {
+	min-height: 1.5em;
+	color: white;
+	padding: 1em 0;
+	border-radius: 10px;
+	font-size: 1.5em;
+	margin: 65px;
+	text-shadow: 2px 2px gray;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 1em 0;
+}
+
+a {
+	font-weight: 300;
+	font-size: 1em;
+	text-decoration: none;
+	margin: 2em 0;
+	display: inline-block;
+	color: #fff;
+	background: #eb2854;
+	padding: 1em 2em;
+	border-radius: 10px;
+}
+
+a:visited, a:active {color: #fff;}
+
+.title {
+	padding-top: 3.5em;
+		text-shadow: 2px 2px gray;
+}
