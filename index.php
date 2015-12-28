@@ -91,6 +91,7 @@
                         <br>
 
                         <h3 id="quoteDiv" class="animated fadeInUp">CRUSH IT.</h3>
+                        <div class='buttonz'>
                         <hr class="intro-divider">
                         <a href="#" class="btn btn-default btn-lg" id="quoteButton">Let Me Inspire You</a>
                         <hr class="intro-divider">
@@ -106,13 +107,13 @@
                                 <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://imcrushing.it" class="btn btn-default libg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                             </li>
                         </ul>
-
+                      </div>
                     </div>
                 </div>
             </div>
               <div class="percolate">
-                <img src="img/durian.png" class="durian">
-                <p class="wbst">Website designed by <a href="http://wearepercolate.com">Percolate Galacitc</a></p>
+                <a href="http://wearepercolate.com"><img src="img/durian.png" class="durian"></a>
+                <p class="wbst">Website designed by <a href="https://medium.com/@SnazzyHam/89bb4927b668">Percolate Galacitc</a></p>
               </div>
 
         </div>

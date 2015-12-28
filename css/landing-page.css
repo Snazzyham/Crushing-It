@@ -37,6 +37,11 @@ h6 {
     color: #f8f8f8;
     background: url(../img/bg.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, .h1 {
+  font-size: 1em;
 }
 
 .intro-message {
@@ -45,10 +50,11 @@ h6 {
     padding-bottom: 20%;
 }
 
+
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 1.5em;
 }
 
 .intro-divider {
@@ -67,7 +73,7 @@ h6 {
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 1.5em;
     }
 
     ul.intro-social-buttons > li {
@@ -201,6 +207,7 @@ letter-spacing: 0.8px;
     .twtrbtn {
       padding: 10px;
       margin: 30px;
+      margin-bottom: 50px;
     }
 
     .percolate {
@@ -210,6 +217,12 @@ letter-spacing: 0.8px;
 
     h3 {
       font-size: 14px;
+    }
+    .intro-message h1 {
+      font-size: 12px;
+    }
+    .intro-message {
+      padding-top: 0px;
     }
 }
 
@@ -221,6 +234,9 @@ letter-spacing: 0.8px;
 @media only screen and (min-width: 768px) {
   #quoteDiv {
     padding: 40px;
+  }
+  .intro-message {
+    padding-bottom: 400px;
   }
 }
 
