@@ -21,6 +21,13 @@ h6 {
     font-weight: 700;
 }
 
+#quoteDiv {
+  position: absolute;
+  right: 10px;
+  left: 10px;
+  text-align: center;
+}
+
 .topnav {
     font-size: 14px;
 }
@@ -224,11 +231,17 @@ letter-spacing: 0.8px;
     .intro-message {
       padding-top: 0px;
     }
+    .buttonz {
+      margin-top: 10em;
+    }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 350px) {
   .btn {
     margin: 10px;
+  }
+  .buttonz {
+    margin-top: 20em;
   }
 }
 @media only screen and (min-width: 768px) {
