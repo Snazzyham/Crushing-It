@@ -197,33 +197,40 @@ letter-spacing: 0.8px;
   color: white;
   text-decoration: underline;
 }
-/*#yourElement {
-  -fadeInUp-animation-duration: 10s;
-  -fadeInUp-animation-delay: 2s;
-
-}*/
 
 @media only screen and (max-width: 400px) {
     .wbst {
       display: none;
     }
-    .libg {
-      display: none;
+    .socialbutts {
+      display: inline-block;
+    }
+    .intro-social-buttons li {
+        float: left;
     }
 
-    .twtrbtn {
-      padding: 10px;
-      margin: 30px;
-      margin-bottom: 50px;
+    .intro-social-buttons li a {
+          display: block;
+          margin: 20px 10px 10px 10px;
+          padding: 6px 9px 6px 9px;
+      }
+
+    .fa-2x {
+      font-size: 1em;
+      width: 15px;
+    }
+
+    #quoteButton {
+      font-size: 14px;
     }
 
     .percolate {
-      text-align: center;
-      right: 45%;
+
     }
 
     h3 {
-      font-size: 14px;
+      font-size: 20px;
+      letter-spacing: 1.2px;
     }
     .intro-message h1 {
       font-size: 12px;
@@ -232,7 +239,11 @@ letter-spacing: 0.8px;
       padding-top: 0px;
     }
     .buttonz {
-      margin-top: 10em;
+      margin-top: 18em;
+    }
+
+    .intro-divider {
+      display: none;
     }
 }
 
@@ -241,8 +252,15 @@ letter-spacing: 0.8px;
     margin: 10px;
   }
   .buttonz {
-    margin-top: 20em;
+    margin-top: 26em;
   }
+
+  .btnsocial {
+    width: 48px;
+    height: 40px;
+    text-align: center;
+  }
+
 }
 @media only screen and (min-width: 768px) {
   #quoteDiv {
@@ -251,10 +269,15 @@ letter-spacing: 0.8px;
   .intro-message {
     padding-bottom: 400px;
   }
+  h3 {
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+  .buttonz {
+    margin-top: 18em;
+  }
 }
-
 .durian {
   max-width: 30px;
   float: left;
-  margin-right: 5px;
-}
+  margin-right: 5px;}

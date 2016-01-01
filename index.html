@@ -26,12 +26,14 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="css/landing-page.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,32 +90,31 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>THIS YEAR I'M GOING TO:</h1>
-                        <br>
-
                         <h3 id="quoteDiv" class="animated fadeInUp">CRUSH IT.</h3>
                         <div class='buttonz'>
-                        <hr class="intro-divider">
-                        <a href="#" class="btn btn-default btn-lg" id="quoteButton">Let Me Inspire You</a>
-                        <hr class="intro-divider">
+                        <a href="#" class="btn btn-default btn-lg" id="quoteButton">KEEP ON CRUSHING IT</a>
+
+                        <div class="socialbutts">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a target="_blank" id="twitLink" class="btn btn-default twtrbtn" href="#"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a target="_blank" id="twitLink" class="btn btn-default twtrbtn btnsocial" href="#"><i class="fa fa-twitter fa-2x"></i></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://imcrushing.it&title=New%20Year%20Resolution%20Generator
-&summary=Come%20check%20out%20this%20hilarious%20resolution%20generator" class="btn btn-default libg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+&summary=Come%20check%20out%20this%20hilarious%20resolution%20generator" class="btn btn-default lknbtn btnsocial"><i class="fa fa-linkedin fa-2x"></i></a>
                             </li>
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://imcrushing.it" class="btn btn-default libg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://imcrushing.it" class="btn btn-default fbbtn btnsocial"><i class="fa fa-facebook fa-2x"></i></a>
                             </li>
                         </ul>
+                      </div>
                       </div>
                     </div>
                 </div>
             </div>
               <div class="percolate">
                 <a href="http://wearepercolate.com"><img src="img/durian.png" class="durian"></a>
-                <p class="wbst">Website designed by <a href="https://medium.com/@SnazzyHam/89bb4927b668">Percolate Galacitc</a></p>
+                <p class="wbst">Website designed by <a href="https://medium.com/@SnazzyHam/89bb4927b668">Percolate Galactic</a></p>
               </div>
 
         </div>
@@ -162,7 +163,7 @@
    }
 
    // Update the link
-   var linkRef = "http://twitter.com/share?url=http://imcrushing.it&text=" + factStr + "&hashtags=";
+   var linkRef = "http://twitter.com/share?url=http://imcrushing.it&text=THIS YEAR I'M GOING TO " + factStr + "&hashtags=&#128074%2C&#128175";
 
    $('#twitLink').attr('href', linkRef);
 
